@@ -35,10 +35,6 @@
                 </section>
             </article>
 
-            {{ if .Site.Params.enableShare }}
-                {{ partial "share.html" . }}
-            {{ end }}
-
             {{ if .Site.Params.enableDisqus }}
                 {{ partial "disqus.html" . }}
             {{ end }}
